@@ -1,0 +1,1726 @@
+@font-face {
+    font-family: 'iconset';
+    src: url('../webfonts/iconset5922.eot?35280942');
+    src: url('../webfonts/iconset5922.eot?35280942#iefix') format('embedded-opentype'), url('../webfonts/iconset5922.woff?35280942') format('woff'), url('../webfonts/iconset5922.ttf?35280942') format('truetype'), url('../webfonts/iconset5922.svg?35280942#iconset') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'iconset';
+    src: url('../webfonts/iconset.svg?35280942#iconset') format('svg');
+  }
+}
+*/
+
+[class$="icon-"]:before,
+[class*="icon- "]:before {
+    font-family: "iconset";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.noteicon-:before {
+    content: '\e816';
+}
+
+/* 'î –' */
+
+.logo-dbicon-:before {
+    content: '\e914';
+}
+
+/* 'î¤”' */
+
+.musicicon-:before {
+    content: '\e814';
+}
+
+/* 'î ”' */
+
+.searchicon-:before {
+    content: '\e813';
+}
+
+/* 'î “' */
+
+.flashlighticon-:before {
+    content: '\e812';
+}
+
+/* 'î ’' */
+
+.mailicon-:before {
+    content: '\e811';
+}
+
+/* 'î ‘' */
+
+.hearticon-:before {
+    content: '\e810';
+}
+
+/* 'î ' */
+
+.heart-emptyicon-:before {
+    content: '\e80f';
+}
+
+/* 'î ' */
+
+.staricon-:before {
+    content: '\e80e';
+}
+
+/* 'î Ž' */
+
+.star-emptyicon-:before {
+    content: '\e80d';
+}
+
+/* 'î ' */
+
+.usericon-:before {
+    content: '\e802';
+}
+
+/* 'î ‚' */
+
+.usersicon-:before {
+    content: '\e803';
+}
+
+/* 'î ƒ' */
+
+.user-addicon-:before {
+    content: '\e800';
+}
+
+/* 'î €' */
+
+.videoicon-:before {
+    content: '\e804';
+}
+
+/* 'î „' */
+
+.pictureicon-:before {
+    content: '\e805';
+}
+
+/* 'î …' */
+
+.cameraicon-:before {
+    content: '\e806';
+}
+
+/* 'î †' */
+
+.layouticon-:before {
+    content: '\e807';
+}
+
+/* 'î ‡' */
+
+.menuicon-:before {
+    content: '\e808';
+}
+
+/* 'î ˆ' */
+
+.checkicon-:before {
+    content: '\e809';
+}
+
+/* 'î ‰' */
+
+.cancelicon-:before {
+    content: '\e80a';
+}
+
+/* 'î Š' */
+
+.cancel-circledicon-:before {
+    content: '\e817';
+}
+
+/* 'î —' */
+
+.cancel-squaredicon-:before {
+    content: '\e818';
+}
+
+/* 'î ˜' */
+
+.plusicon-:before {
+    content: '\e819';
+}
+
+/* 'î ™' */
+
+.plus-circledicon-:before {
+    content: '\e81a';
+}
+
+/* 'î š' */
+
+.plus-squaredicon-:before {
+    content: '\e81b';
+}
+
+/* 'î ›' */
+
+.minusicon-:before {
+    content: '\e81c';
+}
+
+/* 'î œ' */
+
+.minus-circledicon-:before {
+    content: '\e81d';
+}
+
+/* 'î ' */
+
+.minus-squaredicon-:before {
+    content: '\e81e';
+}
+
+/* 'î ž' */
+
+.helpicon-:before {
+    content: '\e81f';
+}
+
+/* 'î Ÿ' */
+
+.help-circledicon-:before {
+    content: '\e820';
+}
+
+/* 'î  ' */
+
+.infoicon-:before {
+    content: '\e821';
+}
+
+/* 'î ¡' */
+
+.info-circledicon-:before {
+    content: '\e822';
+}
+
+/* 'î ¢' */
+
+.backicon-:before {
+    content: '\e823';
+}
+
+/* 'î £' */
+
+.homeicon-:before {
+    content: '\e824';
+}
+
+/* 'î ¤' */
+
+.linkicon-:before {
+    content: '\e825';
+}
+
+/* 'î ¥' */
+
+.attachicon-:before {
+    content: '\e826';
+}
+
+/* 'î ¦' */
+
+.lockicon-:before {
+    content: '\e827';
+}
+
+/* 'î §' */
+
+.lock-openicon-:before {
+    content: '\e801';
+}
+
+/* 'î ' */
+
+.eyeicon-:before {
+    content: '\e80c';
+}
+
+/* 'î Œ' */
+
+.tagicon-:before {
+    content: '\e80b';
+}
+
+/* 'î ‹' */
+
+.bookmarkicon-:before {
+    content: '\e83a';
+}
+
+/* 'î º' */
+
+.bookmarksicon-:before {
+    content: '\e839';
+}
+
+/* 'î ¹' */
+
+.flagicon-:before {
+    content: '\e838';
+}
+
+/* 'î ¸' */
+
+.thumbs-upicon-:before {
+    content: '\e837';
+}
+
+/* 'î ·' */
+
+.thumbs-downicon-:before {
+    content: '\e836';
+}
+
+/* 'î ¶' */
+
+.uploadicon-:before {
+    content: '\e835';
+}
+
+/* 'î µ' */
+
+.upload-cloudicon-:before {
+    content: '\e834';
+}
+
+/* 'î ´' */
+
+.replyicon-:before {
+    content: '\e833';
+}
+
+/* 'î ³' */
+
+.reply-allicon-:before {
+    content: '\e832';
+}
+
+/* 'î ²' */
+
+.forwardicon-:before {
+    content: '\e831';
+}
+
+/* 'î ±' */
+
+.quoteicon-:before {
+    content: '\e830';
+}
+
+/* 'î °' */
+
+.codeicon-:before {
+    content: '\e82f';
+}
+
+/* 'î ¯' */
+
+.exporticon-:before {
+    content: '\e82e';
+}
+
+/* 'î ®' */
+
+.pencilicon-:before {
+    content: '\e82d';
+}
+
+/* 'î ­' */
+
+.feathericon-:before {
+    content: '\e82c';
+}
+
+/* 'î ¬' */
+
+.printicon-:before {
+    content: '\e82b';
+}
+
+/* 'î «' */
+
+.retweeticon-:before {
+    content: '\e82a';
+}
+
+/* 'î ª' */
+
+.keyboardicon-:before {
+    content: '\e828';
+}
+
+/* 'î ¨' */
+
+.commenticon-:before {
+    content: '\e829';
+}
+
+/* 'î ©' */
+
+.chaticon-:before {
+    content: '\e83b';
+}
+
+/* 'î »' */
+
+.bellicon-:before {
+    content: '\e83c';
+}
+
+/* 'î ¼' */
+
+.attentionicon-:before {
+    content: '\e83d';
+}
+
+/* 'î ½' */
+
+.alerticon-:before {
+    content: '\e83e';
+}
+
+/* 'î ¾' */
+
+.addressicon-:before {
+    content: '\e83f';
+}
+
+/* 'î ¿' */
+
+.locationicon-:before {
+    content: '\e840';
+}
+
+/* 'î¡€' */
+
+.mapicon-:before {
+    content: '\e841';
+}
+
+/* 'î¡' */
+
+.directionicon-:before {
+    content: '\e842';
+}
+
+/* 'î¡‚' */
+
+.compassicon-:before {
+    content: '\e843';
+}
+
+/* 'î¡ƒ' */
+
+.cupicon-:before {
+    content: '\e844';
+}
+
+/* 'î¡„' */
+
+.trashicon-:before {
+    content: '\e845';
+}
+
+/* 'î¡…' */
+
+.docicon-:before {
+    content: '\e846';
+}
+
+/* 'î¡†' */
+
+.docsicon-:before {
+    content: '\e847';
+}
+
+/* 'î¡‡' */
+
+.doc-landscapeicon-:before {
+    content: '\e848';
+}
+
+/* 'î¡ˆ' */
+
+.doc-texticon-:before {
+    content: '\e849';
+}
+
+/* 'î¡‰' */
+
+.doc-text-invicon-:before {
+    content: '\e84a';
+}
+
+/* 'î¡Š' */
+
+.newspapericon-:before {
+    content: '\e84b';
+}
+
+/* 'î¡‹' */
+
+.book-openicon-:before {
+    content: '\e84c';
+}
+
+/* 'î¡Œ' */
+
+.bookicon-:before {
+    content: '\e84d';
+}
+
+/* 'î¡' */
+
+.foldericon-:before {
+    content: '\e861';
+}
+
+/* 'î¡¡' */
+
+.archiveicon-:before {
+    content: '\e860';
+}
+
+/* 'î¡ ' */
+
+.boxicon-:before {
+    content: '\e85f';
+}
+
+/* 'î¡Ÿ' */
+
+.rssicon-:before {
+    content: '\e85e';
+}
+
+/* 'î¡ž' */
+
+.phoneicon-:before {
+    content: '\e85d';
+}
+
+/* 'î¡' */
+
+.cogicon-:before {
+    content: '\e85c';
+}
+
+/* 'î¡œ' */
+
+.toolsicon-:before {
+    content: '\e85b';
+}
+
+/* 'î¡›' */
+
+.shareicon-:before {
+    content: '\e85a';
+}
+
+/* 'î¡š' */
+
+.shareableicon-:before {
+    content: '\e859';
+}
+
+/* 'î¡™' */
+
+.basketicon-:before {
+    content: '\e858';
+}
+
+/* 'î¡˜' */
+
+.bagicon-:before {
+    content: '\e857';
+}
+
+/* 'î¡—' */
+
+.calendaricon-:before {
+    content: '\e856';
+}
+
+/* 'î¡–' */
+
+.loginicon-:before {
+    content: '\e855';
+}
+
+/* 'î¡•' */
+
+.logouticon-:before {
+    content: '\e854';
+}
+
+/* 'î¡”' */
+
+.micicon-:before {
+    content: '\e853';
+}
+
+/* 'î¡“' */
+
+.muteicon-:before {
+    content: '\e852';
+}
+
+/* 'î¡’' */
+
+.soundicon-:before {
+    content: '\e851';
+}
+
+/* 'î¡‘' */
+
+.volumeicon-:before {
+    content: '\e850';
+}
+
+/* 'î¡' */
+
+.clockicon-:before {
+    content: '\e84f';
+}
+
+/* 'î¡' */
+
+.hourglassicon-:before {
+    content: '\e84e';
+}
+
+/* 'î¡Ž' */
+
+.lampicon-:before {
+    content: '\e862';
+}
+
+/* 'î¡¢' */
+
+.light-downicon-:before {
+    content: '\e863';
+}
+
+/* 'î¡£' */
+
+.light-upicon-:before {
+    content: '\e864';
+}
+
+/* 'î¡¤' */
+
+.adjusticon-:before {
+    content: '\e865';
+}
+
+/* 'î¡¥' */
+
+.blockicon-:before {
+    content: '\e866';
+}
+
+/* 'î¡¦' */
+
+.resize-fullicon-:before {
+    content: '\e867';
+}
+
+/* 'î¡§' */
+
+.resize-smallicon-:before {
+    content: '\e868';
+}
+
+/* 'î¡¨' */
+
+.popupicon-:before {
+    content: '\e869';
+}
+
+/* 'î¡©' */
+
+.publishicon-:before {
+    content: '\e86a';
+}
+
+/* 'î¡ª' */
+
+.windowicon-:before {
+    content: '\e86b';
+}
+
+/* 'î¡«' */
+
+.arrow-comboicon-:before {
+    content: '\e86c';
+}
+
+/* 'î¡¬' */
+
+.down-circledicon-:before {
+    content: '\e86d';
+}
+
+/* 'î¡­' */
+
+.left-circledicon-:before {
+    content: '\e86e';
+}
+
+/* 'î¡®' */
+
+.right-circledicon-:before {
+    content: '\e86f';
+}
+
+/* 'î¡¯' */
+
+.up-circledicon-:before {
+    content: '\e870';
+}
+
+/* 'î¡°' */
+
+.down-openicon-:before {
+    content: '\e871';
+}
+
+/* 'î¡±' */
+
+.left-openicon-:before {
+    content: '\e872';
+}
+
+/* 'î¡²' */
+
+.right-openicon-:before {
+    content: '\e873';
+}
+
+/* 'î¡³' */
+
+.up-openicon-:before {
+    content: '\e874';
+}
+
+/* 'î¡´' */
+
+.down-open-miniicon-:before {
+    content: '\e875';
+}
+
+/* 'î¡µ' */
+
+.left-open-miniicon-:before {
+    content: '\e888';
+}
+
+/* 'î¢ˆ' */
+
+.right-open-miniicon-:before {
+    content: '\e887';
+}
+
+/* 'î¢‡' */
+
+.up-open-miniicon-:before {
+    content: '\e886';
+}
+
+/* 'î¢†' */
+
+.down-open-bigicon-:before {
+    content: '\e885';
+}
+
+/* 'î¢…' */
+
+.left-open-bigicon-:before {
+    content: '\e884';
+}
+
+/* 'î¢„' */
+
+.right-open-bigicon-:before {
+    content: '\e883';
+}
+
+/* 'î¢ƒ' */
+
+.downicon-:before {
+    content: '\e882';
+}
+
+/* 'î¢‚' */
+
+.lefticon-:before {
+    content: '\e881';
+}
+
+/* 'î¢' */
+
+.righticon-:before {
+    content: '\e880';
+}
+
+/* 'î¢€' */
+
+.upicon-:before {
+    content: '\e87f';
+}
+
+/* 'î¡¿' */
+
+.down-diricon-:before {
+    content: '\e87e';
+}
+
+/* 'î¡¾' */
+
+.left-diricon-:before {
+    content: '\e87d';
+}
+
+/* 'î¡½' */
+
+.right-diricon-:before {
+    content: '\e87c';
+}
+
+/* 'î¡¼' */
+
+.up-diricon-:before {
+    content: '\e87b';
+}
+
+/* 'î¡»' */
+
+.down-boldicon-:before {
+    content: '\e87a';
+}
+
+/* 'î¡º' */
+
+.left-boldicon-:before {
+    content: '\e879';
+}
+
+/* 'î¡¹' */
+
+.right-boldicon-:before {
+    content: '\e878';
+}
+
+/* 'î¡¸' */
+
+.up-boldicon-:before {
+    content: '\e877';
+}
+
+/* 'î¡·' */
+
+.down-thinicon-:before {
+    content: '\e876';
+}
+
+/* 'î¡¶' */
+
+.left-thinicon-:before {
+    content: '\e889';
+}
+
+/* 'î¢‰' */
+
+.right-thinicon-:before {
+    content: '\e88a';
+}
+
+/* 'î¢Š' */
+
+.up-thinicon-:before {
+    content: '\e88b';
+}
+
+/* 'î¢‹' */
+
+.note-beamedicon-:before {
+    content: '\e815';
+}
+
+/* 'î •' */
+
+.cwicon-:before {
+    content: '\e88d';
+}
+
+/* 'î¢' */
+
+.arrows-ccwicon-:before {
+    content: '\e88e';
+}
+
+/* 'î¢Ž' */
+
+.level-downicon-:before {
+    content: '\e88f';
+}
+
+/* 'î¢' */
+
+.level-upicon-:before {
+    content: '\e890';
+}
+
+/* 'î¢' */
+
+.shuffleicon-:before {
+    content: '\e891';
+}
+
+/* 'î¢‘' */
+
+.loopicon-:before {
+    content: '\e892';
+}
+
+/* 'î¢’' */
+
+.switchicon-:before {
+    content: '\e893';
+}
+
+/* 'î¢“' */
+
+.playicon-:before {
+    content: '\e894';
+}
+
+/* 'î¢”' */
+
+.stopicon-:before {
+    content: '\e895';
+}
+
+/* 'î¢•' */
+
+.pauseicon-:before {
+    content: '\e896';
+}
+
+/* 'î¢–' */
+
+.recordicon-:before {
+    content: '\e897';
+}
+
+/* 'î¢—' */
+
+.to-endicon-:before {
+    content: '\e898';
+}
+
+/* 'î¢˜' */
+
+.to-starticon-:before {
+    content: '\e899';
+}
+
+/* 'î¢™' */
+
+.fast-forwardicon-:before {
+    content: '\e89a';
+}
+
+/* 'î¢š' */
+
+.fast-backwardicon-:before {
+    content: '\e89b';
+}
+
+/* 'î¢›' */
+
+.progress-0icon-:before {
+    content: '\e89c';
+}
+
+/* 'î¢œ' */
+
+.progress-1icon-:before {
+    content: '\e8b0';
+}
+
+/* 'î¢°' */
+
+.progress-2icon-:before {
+    content: '\e8af';
+}
+
+/* 'î¢¯' */
+
+.progress-3icon-:before {
+    content: '\e8ae';
+}
+
+/* 'î¢®' */
+
+.targeticon-:before {
+    content: '\e8ad';
+}
+
+/* 'î¢­' */
+
+.paletteicon-:before {
+    content: '\e8ac';
+}
+
+/* 'î¢¬' */
+
+.listicon-:before {
+    content: '\e8ab';
+}
+
+/* 'î¢«' */
+
+.list-addicon-:before {
+    content: '\e8aa';
+}
+
+/* 'î¢ª' */
+
+.signalicon-:before {
+    content: '\e8a9';
+}
+
+/* 'î¢©' */
+
+.trophyicon-:before {
+    content: '\e8a8';
+}
+
+/* 'î¢¨' */
+
+.batteryicon-:before {
+    content: '\e8a7';
+}
+
+/* 'î¢§' */
+
+.back-in-timeicon-:before {
+    content: '\e8a6';
+}
+
+/* 'î¢¦' */
+
+.monitoricon-:before {
+    content: '\e8a5';
+}
+
+/* 'î¢¥' */
+
+.mobileicon-:before {
+    content: '\e8a4';
+}
+
+/* 'î¢¤' */
+
+.networkicon-:before {
+    content: '\e8a3';
+}
+
+/* 'î¢£' */
+
+.cdicon-:before {
+    content: '\e8a2';
+}
+
+/* 'î¢¢' */
+
+.inboxicon-:before {
+    content: '\e8a1';
+}
+
+/* 'î¢¡' */
+
+.installicon-:before {
+    content: '\e8a0';
+}
+
+/* 'î¢ ' */
+
+.globeicon-:before {
+    content: '\e89f';
+}
+
+/* 'î¢Ÿ' */
+
+.cloudicon-:before {
+    content: '\e89e';
+}
+
+/* 'î¢ž' */
+
+.cloud-thundericon-:before {
+    content: '\e89d';
+}
+
+/* 'î¢' */
+
+.flashicon-:before {
+    content: '\e8b1';
+}
+
+/* 'î¢±' */
+
+.moonicon-:before {
+    content: '\e8b2';
+}
+
+/* 'î¢²' */
+
+.flighticon-:before {
+    content: '\e8b3';
+}
+
+/* 'î¢³' */
+
+.paper-planeicon-:before {
+    content: '\e8b4';
+}
+
+/* 'î¢´' */
+
+.leaficon-:before {
+    content: '\e8b5';
+}
+
+/* 'î¢µ' */
+
+.lifebuoyicon-:before {
+    content: '\e8b6';
+}
+
+/* 'î¢¶' */
+
+.mouseicon-:before {
+    content: '\e8b7';
+}
+
+/* 'î¢·' */
+
+.briefcaseicon-:before {
+    content: '\e8b8';
+}
+
+/* 'î¢¸' */
+
+.suitcaseicon-:before {
+    content: '\e8b9';
+}
+
+/* 'î¢¹' */
+
+.doticon-:before {
+    content: '\e8ba';
+}
+
+/* 'î¢º' */
+
+.dot-2icon-:before {
+    content: '\e8bb';
+}
+
+/* 'î¢»' */
+
+.dot-3icon-:before {
+    content: '\e8bc';
+}
+
+/* 'î¢¼' */
+
+.brushicon-:before {
+    content: '\e8bd';
+}
+
+/* 'î¢½' */
+
+.magneticon-:before {
+    content: '\e8be';
+}
+
+/* 'î¢¾' */
+
+.infinityicon-:before {
+    content: '\e8bf';
+}
+
+/* 'î¢¿' */
+
+.eraseicon-:before {
+    content: '\e8c0';
+}
+
+/* 'î£€' */
+
+.chart-pieicon-:before {
+    content: '\e8c1';
+}
+
+/* 'î£' */
+
+.chart-lineicon-:before {
+    content: '\e8c2';
+}
+
+/* 'î£‚' */
+
+.chart-baricon-:before {
+    content: '\e8c3';
+}
+
+/* 'î£ƒ' */
+
+.chart-areaicon-:before {
+    content: '\e8c4';
+}
+
+/* 'î£„' */
+
+.graduation-capicon-:before {
+    content: '\e8d7';
+}
+
+/* 'î£—' */
+
+.languageicon-:before {
+    content: '\e8d6';
+}
+
+/* 'î£–' */
+
+.ticketicon-:before {
+    content: '\e8d5';
+}
+
+/* 'î£•' */
+
+.watericon-:before {
+    content: '\e8d4';
+}
+
+/* 'î£”' */
+
+.dropleticon-:before {
+    content: '\e8d3';
+}
+
+/* 'î£“' */
+
+.airicon-:before {
+    content: '\e8d2';
+}
+
+/* 'î£’' */
+
+.credit-cardicon-:before {
+    content: '\e8d1';
+}
+
+/* 'î£‘' */
+
+.floppyicon-:before {
+    content: '\e8d0';
+}
+
+/* 'î£' */
+
+.clipboardicon-:before {
+    content: '\e8cf';
+}
+
+/* 'î£' */
+
+.megaphoneicon-:before {
+    content: '\e8ce';
+}
+
+/* 'î£Ž' */
+
+.databaseicon-:before {
+    content: '\e8cd';
+}
+
+/* 'î£' */
+
+.driveicon-:before {
+    content: '\e8cc';
+}
+
+/* 'î£Œ' */
+
+.bucketicon-:before {
+    content: '\e8cb';
+}
+
+/* 'î£‹' */
+
+.thermometericon-:before {
+    content: '\e8ca';
+}
+
+/* 'î£Š' */
+
+.keyicon-:before {
+    content: '\e8c9';
+}
+
+/* 'î£‰' */
+
+.flow-cascadeicon-:before {
+    content: '\e8c8';
+}
+
+/* 'î£ˆ' */
+
+.flow-branchicon-:before {
+    content: '\e8c7';
+}
+
+/* 'î£‡' */
+
+.flow-treeicon-:before {
+    content: '\e8c6';
+}
+
+/* 'î£†' */
+
+.flow-lineicon-:before {
+    content: '\e8c5';
+}
+
+/* 'î£…' */
+
+.flow-parallelicon-:before {
+    content: '\e8d8';
+}
+
+/* 'î£˜' */
+
+.rocketicon-:before {
+    content: '\e8d9';
+}
+
+/* 'î£™' */
+
+.gaugeicon-:before {
+    content: '\e8da';
+}
+
+/* 'î£š' */
+
+.traffic-coneicon-:before {
+    content: '\e8db';
+}
+
+/* 'î£›' */
+
+.ccicon-:before {
+    content: '\e8dc';
+}
+
+/* 'î£œ' */
+
+.cc-byicon-:before {
+    content: '\e8dd';
+}
+
+/* 'î£' */
+
+.cc-ncicon-:before {
+    content: '\e8de';
+}
+
+/* 'î£ž' */
+
+.cc-nc-euicon-:before {
+    content: '\e8df';
+}
+
+/* 'î£Ÿ' */
+
+.cc-nc-jpicon-:before {
+    content: '\e8e0';
+}
+
+/* 'î£ ' */
+
+.cc-saicon-:before {
+    content: '\e8e1';
+}
+
+/* 'î£¡' */
+
+.cc-ndicon-:before {
+    content: '\e8e2';
+}
+
+/* 'î£¢' */
+
+.cc-pdicon-:before {
+    content: '\e8e3';
+}
+
+/* 'î££' */
+
+.cc-zeroicon-:before {
+    content: '\e8e4';
+}
+
+/* 'î£¤' */
+
+.cc-shareicon-:before {
+    content: '\e8e5';
+}
+
+/* 'î£¥' */
+
+.cc-remixicon-:before {
+    content: '\e8e6';
+}
+
+/* 'î£¦' */
+
+.githubicon-:before {
+    content: '\e8e7';
+}
+
+/* 'î£§' */
+
+.github-circledicon-:before {
+    content: '\e8e8';
+}
+
+/* 'î£¨' */
+
+.flickricon-:before {
+    content: '\e8e9';
+}
+
+/* 'î£©' */
+
+.flickr-circledicon-:before {
+    content: '\e8ea';
+}
+
+/* 'î£ª' */
+
+.vimeoicon-:before {
+    content: '\e8eb';
+}
+
+/* 'î£«' */
+
+.vimeo-circledicon-:before {
+    content: '\e8ff';
+}
+
+/* 'î£¿' */
+
+.twittericon-:before {
+    content: '\e8fe';
+}
+
+/* 'î£¾' */
+
+.twitter-circledicon-:before {
+    content: '\e8fd';
+}
+
+/* 'î£½' */
+
+.facebookicon-:before {
+    content: '\e8fc';
+}
+
+/* 'î£¼' */
+
+.facebook-circledicon-:before {
+    content: '\e8fb';
+}
+
+/* 'î£»' */
+
+.facebook-squaredicon-:before {
+    content: '\e8fa';
+}
+
+/* 'î£º' */
+
+.gplusicon-:before {
+    content: '\e8f9';
+}
+
+/* 'î£¹' */
+
+.gplus-circledicon-:before {
+    content: '\e8f8';
+}
+
+/* 'î£¸' */
+
+.pinteresticon-:before {
+    content: '\e8f7';
+}
+
+/* 'î£·' */
+
+.pinterest-circledicon-:before {
+    content: '\e8f6';
+}
+
+/* 'î£¶' */
+
+.tumblricon-:before {
+    content: '\e8f5';
+}
+
+/* 'î£µ' */
+
+.tumblr-circledicon-:before {
+    content: '\e8f4';
+}
+
+/* 'î£´' */
+
+.linkedinicon-:before {
+    content: '\e8f3';
+}
+
+/* 'î£³' */
+
+.linkedin-circledicon-:before {
+    content: '\e8f2';
+}
+
+/* 'î£²' */
+
+.dribbbleicon-:before {
+    content: '\e8f1';
+}
+
+/* 'î£±' */
+
+.dribbble-circledicon-:before {
+    content: '\e8f0';
+}
+
+/* 'î£°' */
+
+.stumbleuponicon-:before {
+    content: '\e8ef';
+}
+
+/* 'î£¯' */
+
+.stumbleupon-circledicon-:before {
+    content: '\e8ee';
+}
+
+/* 'î£®' */
+
+.lastfmicon-:before {
+    content: '\e8ed';
+}
+
+/* 'î£­' */
+
+.lastfm-circledicon-:before {
+    content: '\e8ec';
+}
+
+/* 'î£¬' */
+
+.rdioicon-:before {
+    content: '\e900';
+}
+
+/* 'î¤€' */
+
+.rdio-circledicon-:before {
+    content: '\e901';
+}
+
+/* 'î¤' */
+
+.spotifyicon-:before {
+    content: '\e902';
+}
+
+/* 'î¤‚' */
+
+.spotify-circledicon-:before {
+    content: '\e903';
+}
+
+/* 'î¤ƒ' */
+
+.qqicon-:before {
+    content: '\e904';
+}
+
+/* 'î¤„' */
+
+.instagramicon-:before {
+    content: '\e905';
+}
+
+/* 'î¤…' */
+
+.dropboxicon-:before {
+    content: '\e906';
+}
+
+/* 'î¤†' */
+
+.evernoteicon-:before {
+    content: '\e907';
+}
+
+/* 'î¤‡' */
+
+.flattricon-:before {
+    content: '\e908';
+}
+
+/* 'î¤ˆ' */
+
+.skypeicon-:before {
+    content: '\e909';
+}
+
+/* 'î¤‰' */
+
+.skype-circledicon-:before {
+    content: '\e90a';
+}
+
+/* 'î¤Š' */
+
+.renrenicon-:before {
+    content: '\e90b';
+}
+
+/* 'î¤‹' */
+
+.sina-weiboicon-:before {
+    content: '\e90c';
+}
+
+/* 'î¤Œ' */
+
+.paypalicon-:before {
+    content: '\e90d';
+}
+
+/* 'î¤' */
+
+.picasaicon-:before {
+    content: '\e90e';
+}
+
+/* 'î¤Ž' */
+
+.soundcloudicon-:before {
+    content: '\e90f';
+}
+
+/* 'î¤' */
+
+.mixiicon-:before {
+    content: '\e910';
+}
+
+/* 'î¤' */
+
+.behanceicon-:before {
+    content: '\e911';
+}
+
+/* 'î¤‘' */
+
+.google-circlesicon-:before {
+    content: '\e912';
+}
+
+/* 'î¤’' */
+
+.vkontakteicon-:before {
+    content: '\e913';
+}
+
+/* 'î¤“' */
+
+.smashingicon-:before {
+    content: '\e917';
+}
+
+/* 'î¤—' */
+
+.swedenicon-:before {
+    content: '\e916';
+}
+
+/* 'î¤–' */
+
+.db-shapeicon-:before {
+    content: '\e915';
+}
+
+/* 'î¤•' */
+
+.ccwicon-:before {
+    content: '\e88c';
+}
+
+/* 'î¢Œ' */
